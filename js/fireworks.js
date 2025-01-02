@@ -12,17 +12,17 @@ function createCircle(e, t) {
     a.y = t,
     a.color = "#5A87FF",
     a.radius = 0.1,
-    a.alpha = 0.5,
-    a.lineWidth = 3,
+    a.alpha = 1,
+    a.lineWidth = 6,
     a.draw = function () {
         console.log('Drawing circle with radius:', a.radius);
-        ctx.globalAlpha = a.alpha,
-        ctx.beginPath(),
-        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0),
-        ctx.lineWidth = a.lineWidth,
-        ctx.strokeStyle = a.color,
-        ctx.stroke(),
-        ctx.globalAlpha = 1
+        ctx.globalAlpha = a.alpha;
+        ctx.beginPath();
+        ctx.arc(a.x, a.y, a.radius, 0, 2 * Math.PI, !0);
+        ctx.lineWidth = a.lineWidth;
+        ctx.strokeStyle = a.color;
+        ctx.stroke();
+        ctx.globalAlpha = 1;
     },
     a
 }
@@ -47,29 +47,29 @@ function animateParticules(e, t) {
             targets: circles,
             radius: function(el, i) {
                 switch(i) {
-                    case 0: return anime.random(30, 40);
-                    case 1: return anime.random(60, 70);
-                    case 2: return anime.random(90, 100);
-                    case 3: return anime.random(120, 130);
+                    case 0: return anime.random(50, 60);
+                    case 1: return anime.random(80, 90);
+                    case 2: return anime.random(110, 120);
+                    case 3: return anime.random(140, 150);
                 }
             },
             lineWidth: function(el, i) {
-                return 6 - i;
+                return 8 - i;
             },
             alpha: {
                 value: 0,
                 easing: "linear",
                 duration: function(el, i) {
-                    return 400 + i * 100;
+                    return 600 + i * 100;
                 }
             },
             duration: function(el, i) {
-                return 800 + i * 100;
+                return 1000 + i * 100;
             },
             easing: "easeOutExpo",
             update: renderParticule,
             offset: function(el, i) {
-                return i * 50;
+                return i * 40;
             }
         });
 }
@@ -110,6 +110,9 @@ if (canvasEl) {
             }
         });
 
+    // 确保画布尺寸正确
+    setCanvasSize();
+    
     document.addEventListener(tap, function(e) {
         console.log('Click event triggered!');
         if ("sidebar" !== e.target.id && 
@@ -122,9 +125,6 @@ if (canvasEl) {
         }
     }, false);
 
-    // 初始化时设置画布大小
-    setCanvasSize();
-    
     window.addEventListener("resize", setCanvasSize, false);
 }
 
