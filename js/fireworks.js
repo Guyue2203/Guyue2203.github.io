@@ -38,7 +38,6 @@ function animateParticules(e, t) {
     console.log('Animating at:', e, t);
     var circles = [];
     
-    // 创建四个圆环
     for (var i = 0; i < 4; i++) {
         circles.push(createCircle(e, t));
     }
@@ -47,34 +46,54 @@ function animateParticules(e, t) {
         .add({
             targets: circles,
             radius: function(el, i) {
-                // 调整半径范围，让效果更明显
                 switch(i) {
-                    case 0: return anime.random(30, 40);    // 增大最内圈
-                    case 1: return anime.random(60, 70);    // 增大第二圈
-                    case 2: return anime.random(90, 100);   // 增大第三圈
-                    case 3: return anime.random(120, 130);  // 增大最外圈
+                    case 0: return anime.random(30, 40);
+                    case 1: return anime.random(60, 70);
+                    case 2: return anime.random(90, 100);
+                    case 3: return anime.random(120, 130);
                 }
             },
             lineWidth: function(el, i) {
-                return 6 - i;  // 增加线条宽度
+                return 6 - i;
             },
             alpha: {
                 value: 0,
                 easing: "linear",
                 duration: function(el, i) {
-                    return 400 + i * 100;  // 稍微加快消失速度
+                    return 400 + i * 100;
                 }
             },
             duration: function(el, i) {
-                return 800 + i * 100;  // 稍微加快扩散速度
+                return 800 + i * 100;
             },
             easing: "easeOutExpo",
             update: renderParticule,
             offset: function(el, i) {
-                return i * 50;  // 减小时间间隔
+                return i * 50;
             }
         });
 }
+
+function debounce(e, t) {
+    var a;
+    return function() {
+        var n = this,
+            i = arguments;
+        clearTimeout(a),
+        a = setTimeout(function() {
+            e.apply(n, i);
+        }, t);
+    };
+}
+
+// 先定义 setCanvasSize 函数
+var setCanvasSize = debounce(function() {
+    canvasEl.width = 2 * window.innerWidth;
+    canvasEl.height = 2 * window.innerHeight;
+    canvasEl.style.width = window.innerWidth + "px";
+    canvasEl.style.height = window.innerHeight + "px";
+    canvasEl.getContext("2d").scale(2, 2);
+}, 500);
 
 var canvasEl = document.querySelector(".fireworks");
 if (canvasEl) {
@@ -103,28 +122,9 @@ if (canvasEl) {
         }
     }, false);
 
-    setCanvasSize(); // 立即设置画布大小
-
-    var setCanvasSize = debounce(function() {
-        canvasEl.width = 2 * window.innerWidth;
-        canvasEl.height = 2 * window.innerHeight;
-        canvasEl.style.width = window.innerWidth + "px";
-        canvasEl.style.height = window.innerHeight + "px";
-        canvasEl.getContext("2d").scale(2, 2);
-    }, 500);
-
+    // 初始化时设置画布大小
+    setCanvasSize();
+    
     window.addEventListener("resize", setCanvasSize, false);
-}
-
-function debounce(e, t) {
-    var a;
-    return function() {
-        var n = this,
-            i = arguments;
-        clearTimeout(a),
-        a = setTimeout(function() {
-            e.apply(n, i);
-        }, t);
-    };
 }
 
