@@ -185,7 +185,11 @@
     <title>测试</title>
     <url>/2024/12/22/test/</url>
     <content><![CDATA[<p>如你所见，这里没有什么内容，因为这只是一篇用来测试的文章。</p>
-<span id="more"></span>]]></content>
+<span id="more"></span>
+
+<p>以下为测试：</p>
+<p><img data-src="https://v.ruc.edu.cn/staticv3/img/bac.b4d40d7c.png" alt="bac.b4d40d7c.png (950×575)"></p>
+]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
