@@ -184,12 +184,18 @@
   <entry>
     <title>测试</title>
     <url>/2024/12/22/test/</url>
-    <content><![CDATA[<p>如你所见，这里没有什么内容，因为这只是一篇用来测试的文章。</p>
-<span id="more"></span>
-
-<p>以下为测试：</p>
-<p><img data-src="https://v.ruc.edu.cn/staticv3/img/bac.b4d40d7c.png" alt="bac.b4d40d7c.png (950×575)"></p>
-]]></content>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="cf9052025396142573030fc1b20e597e7007302acadcf81512beaaaaf04d21de">bd25ed9264b080267271e137e33d0ce13e7138a7af4beda1d0bc728121ff5e944e757db9bbb498a62d29102d4a3ff7948330d95086d697031d8bcaec50d6ae88b52fe02f1635eea54b5c0dda58f4350878122f6fb1551cfe7955a9e29985a3eb8ba6222f77d55107f797681eaed0e5043e7bcf651d1ec15702caa5ea0510d0377a7ea72894247917c25800246f10d825ddaae2e703d367fc657e56e417381ddaaad0fe8fbeb8181c2668f93ecc53e679ed8a0e3d816150cd715313bf52891b9f86e1a1a0b7fe0db3aa259208475d7f691f629d22c7df3c9ec74fc27dea71a366473b8c1823adcb0d6bf24c1ddb6fde3ea00361b8a6c315481351625f30a3d5199e4e1a1f1b21aacb27188a8dc1fcd7323d8522c3d540acbd4315321230407a8f</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
         <category>Hexo</category>
       </categories>
