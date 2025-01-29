@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>让世界更加正确</title>
+    <url>/2025/01/14/ecp-idea/</url>
+    <content><![CDATA[<p>什么是让世界更加正确？</p>
+<p>我想，那在一些方面体现为：让世界更加真实，让世界更加友好，让世界更加纯粹。</p>
+<span id="more"></span>
+
+<p><code> ECP:Empathy, Clarity, Purity</code></p>
+]]></content>
+      <categories>
+        <category>ECP</category>
+      </categories>
+      <tags>
+        <tag>ECP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>来自半山水同学的投稿</title>
     <url>/2025/01/04/banshanshui01/</url>
     <content><![CDATA[<p>这篇文章中刊载的是来自半山水同学的投稿，这是这个网站第一次发布其它同学的投稿，感谢同学对网站高产的助力！</p>
@@ -122,19 +138,40 @@
       </tags>
   </entry>
   <entry>
-    <title>让世界更加正确</title>
-    <url>/2025/01/14/ecp-idea/</url>
-    <content><![CDATA[<p>什么是让世界更加正确？</p>
-<p>我想，那在一些方面体现为：让世界更加真实，让世界更加友好，让世界更加纯粹。</p>
+    <title>已巳蛇年，新年快乐</title>
+    <url>/2025/01/29/happy-year-of-the-snake-2025/</url>
+    <content><![CDATA[<p>今天是乙巳蛇年正月初一，祝看到这篇文章的你乙巳蛇年新年快乐！</p>
 <span id="more"></span>
 
-<p><code> ECP:Empathy, Clarity, Purity</code></p>
+<p><img data-src="https://a1.qpic.cn/psc?/V111C0g134JrHE/TmEUgtj9EK6.7V8ajmQrECXkUAOOA*FECl1LbX.YF*Ez.FhDyir77Z0RdDkAF*WFJJUS1EQuJKA1EJ9o2rwkbkk0ItuswWPEtL1oImwWeS8!/b&ek=1&kp=1&pt=0&bo=VQpABlUKQAYRECc!&tl=1&vuin=2583526329&tm=1738141200&dis_t=1738142524&dis_k=9938879bc4702ec96e84104243689e32&sce=60-2-2&rf=viewer_311" alt="psc (2645×1600)"></p>
 ]]></content>
       <categories>
-        <category>ECP</category>
+        <category>特殊的日子</category>
       </categories>
       <tags>
-        <tag>ECP</tag>
+        <tag>仪式感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2024/12/22/test/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="832e6c385b70defd2173ac92db096d673b93c89bc3cd7e397f3ab61266ae15b5">bd25ed9264b080267271e137e33d0ce13e7138a7af4beda1d0bc728121ff5e944e757db9bbb498a62d29102d4a3ff7948330d95086d697031d8bcaec50d6ae88b52fe02f1635eea54b5c0dda58f4350878122f6fb1551cfe7955a9e29985a3eb8ba6222f77d55107f797681eaed0e5043e7bcf651d1ec15702caa5ea0510d0377a7ea72894247917c25800246f10d825ddaae2e703d367fc657e56e417381dda8b43dbb5f9214833ada404743d8a8249f09e2795453699d1ae2a39646d68558475083e5b7fb24be5240a4035de54f2f9a7f78f811bf3e76d377314a3d463754360db57afd344135bc0fdcde485c3255208fc4f75bc92de14ed5ae7f933cd5a8d960dfeafd139e729ce748638028cefadf66b37c7345f3f2af53c86c32c455369c2129adeced9893057f130c9e1a45ebc090b565bbd8b96b9bb63b1e6c7b7d82b8acbc166b231e21e966b5a371a40df976af592d95d1dac1822bf2263d8a513926521eaab744e4a40494c3cb5dc552440ef53fa99bb9111d13707b0bd1d1f7d5c36fd95bde685eab975c3c8a2b166abf88a04c326d7748c3204ef3fd06b73c97cdf6c47b8846bb8bf7f0a16b62f8d295f93d3c840d606b01f307a80a46c5714c10e0fe0b602062b0ec0d0ed1e4d3f90a10f7e864573c3f32faeb3d8175af24127bb5c786bce800532047f6f2871add1cef6f1642f0319bad26e6555f33a4c07a3c691da51593f2625129b13bea2db4f50</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -179,43 +216,6 @@
         <tag>渴求</tag>
         <tag>正确性</tag>
         <tag>直觉</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2024/12/22/test/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="832e6c385b70defd2173ac92db096d673b93c89bc3cd7e397f3ab61266ae15b5">bd25ed9264b080267271e137e33d0ce13e7138a7af4beda1d0bc728121ff5e944e757db9bbb498a62d29102d4a3ff7948330d95086d697031d8bcaec50d6ae88b52fe02f1635eea54b5c0dda58f4350878122f6fb1551cfe7955a9e29985a3eb8ba6222f77d55107f797681eaed0e5043e7bcf651d1ec15702caa5ea0510d0377a7ea72894247917c25800246f10d825ddaae2e703d367fc657e56e417381dda8b43dbb5f9214833ada404743d8a8249f09e2795453699d1ae2a39646d68558475083e5b7fb24be5240a4035de54f2f9a7f78f811bf3e76d377314a3d463754360db57afd344135bc0fdcde485c3255208fc4f75bc92de14ed5ae7f933cd5a8d960dfeafd139e729ce748638028cefadf66b37c7345f3f2af53c86c32c455369c2129adeced9893057f130c9e1a45ebc090b565bbd8b96b9bb63b1e6c7b7d82b8acbc166b231e21e966b5a371a40df976af592d95d1dac1822bf2263d8a513926521eaab744e4a40494c3cb5dc552440ef53fa99bb9111d13707b0bd1d1f7d5c36fd95bde685eab975c3c8a2b166abf88a04c326d7748c3204ef3fd06b73c97cdf6c47b8846bb8bf7f0a16b62f8d295f93d3c840d606b01f307a80a46c5714c10e0fe0b602062b0ec0d0ed1e4d3f90a10f7e864573c3f32faeb3d8175af24127bb5c786bce800532047f6f2871add1cef6f1642f0319bad26e6555f33a4c07a3c691da51593f2625129b13bea2db4f50</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>已巳蛇年，新年快乐</title>
-    <url>/2025/01/29/happy-year-of-the-snake-2025/</url>
-    <content><![CDATA[<p>今天是乙巳蛇年正月初一，祝看到这篇文章的你乙巳蛇年新年快乐！</p>
-<span id="more"></span>
-
-<p><img data-src="https://a1.qpic.cn/psc?/V111C0g134JrHE/TmEUgtj9EK6.7V8ajmQrECXkUAOOA*FECl1LbX.YF*Ez.FhDyir77Z0RdDkAF*WFJJUS1EQuJKA1EJ9o2rwkbkk0ItuswWPEtL1oImwWeS8!/b&ek=1&kp=1&pt=0&bo=VQpABlUKQAYRECc!&tl=1&vuin=2583526329&tm=1738141200&dis_t=1738142524&dis_k=9938879bc4702ec96e84104243689e32&sce=60-2-2&rf=viewer_311" alt="psc (2645×1600)"></p>
-]]></content>
-      <categories>
-        <category>特殊的日子</category>
-      </categories>
-      <tags>
-        <tag>仪式感</tag>
       </tags>
   </entry>
 </search>
