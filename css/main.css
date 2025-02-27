@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4e3dff;
+  background: #fff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2710,11 +2710,11 @@ body {
 }
 .post-block,
 .post-block + .post-block {
-  border-radius: 5px;
+  border-radius: 8px;
   margin-top: 24px;
 }
 .posts-collapse .post-block {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .post-block {
   margin-bottom: 24px;
@@ -2722,26 +2722,26 @@ body {
   padding: 20px;
 }
 .sidebar-inner {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .btn {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .highlight {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .search-input {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .tag-cloud-tags a {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .header-inner {
-  border-radius: 5px;
+  border-radius: 8px;
   background: linear-gradient(to bottom, #222 30%, #fff 30%);
 }
 .main-inner {
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .menu {
   border-radius: 0;
@@ -2762,6 +2762,6 @@ body {
   background: transparent;
 }
 .pagination {
-  border-radius: 5px;
+  border-radius: 8px;
   margin-top: 24px;
 }
