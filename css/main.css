@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4f1aa3;
+  background: #ff2625;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2728,7 +2728,7 @@ body {
 }
 .header-inner {
   border-radius: 5px;
-  background: linear-gradient(to bottom, #222 50%, #fff 50%);
+  background: linear-gradient(to bottom, #222 30%, #fff 30%);
 }
 .main-inner {
   border-radius: 5px;
@@ -2736,6 +2736,7 @@ body {
 .menu {
   border-radius: 0;
   background: transparent;
+  margin-top: 0;
 }
 .menu-item {
   border-radius: 0;
@@ -2745,6 +2746,7 @@ body {
 }
 .menu-item a {
   background: transparent;
+  color: #000;
 }
 .menu-item-active a {
   background: transparent;
