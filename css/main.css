@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #fff;
+  background: #ffc8fe;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2702,11 +2702,7 @@ ul.breadcrumb li + li:last-child {
   }
 }
 body {
-  background-image: url("/images/blogbackground.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  opacity: 0.95;
+  background: #b3efff;
 }
 .post-block,
 .post-block + .post-block {
