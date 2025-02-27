@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #7effb8;
+  background: #fffca6;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2737,9 +2737,8 @@ img {
 }
 .sidebar-inner {
   border-radius: 8px;
-  position: fixed;
-  top: 20px;
-  width: 240px;
+  position: sticky;
+  top: 10px;
 }
 .btn {
   border-radius: 8px;
@@ -2759,7 +2758,6 @@ img {
 }
 .main-inner {
   border-radius: 8px;
-  margin-left: 260px;
 }
 .menu {
   border-radius: 0;
@@ -2782,14 +2780,4 @@ img {
 .pagination {
   border-radius: 8px;
   margin-top: 24px;
-}
-@media screen and (max-width: 991px) {
-  .sidebar-inner {
-    position: relative;
-    top: 0;
-    width: auto;
-  }
-  .main-inner {
-    margin-left: auto;
-  }
 }
