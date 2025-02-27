@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #a3feff;
+  background: #ff30bd;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2728,10 +2728,17 @@ body {
 }
 .header-inner {
   border-radius: 5px;
+  overflow: hidden;
 }
 .main-inner {
   border-radius: 5px;
 }
 .menu {
-  border-radius: 5px;
+  border-radius: 0;
+}
+.menu-item {
+  border-radius: 0;
+}
+.menu-item-active {
+  border-radius: 0;
 }
