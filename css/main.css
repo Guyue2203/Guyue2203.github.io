@@ -1220,7 +1220,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffc8fe;
+  background: #ff6aff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2701,8 +2701,14 @@ ul.breadcrumb li + li:last-child {
     margin: 8px 0 0;
   }
 }
+html,
 body {
-  background: #b3efff;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+body {
+  background: #d6f7ff;
 }
 .post-block,
 .post-block + .post-block {
