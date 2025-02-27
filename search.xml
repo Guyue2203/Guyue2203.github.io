@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>二零二五，愿你有勇气与梦想</title>
+    <url>/2024/12/25/courage&amp;dreams2025/</url>
+    <content><![CDATA[<p>今天是圣诞节，圣诞节快乐！</p>
+<p>二零二四的进度条已经加载到98％了。</p>
+<span id="more"></span>
+
+<p>二零二四发生的事情很多，这一年，我度过了高三下半年，完成了高考，拿到了录取通知书，享受了近三个月的假期，来到了北京，庆祝了十八岁生日，又在忙碌中度过了大一上学期。</p>
+<p>“往事总是在回忆时被赋予意义”，我真心觉得，对于我来说，二零二四已经足够好了。</p>
+<p>人生需要很多仪式感，跨年也是，朋友，当你看到这篇文章时，不妨稍稍停下脚步，认真地同二零二四告个别，毕竟，这是你人生中唯一一个二零二四年，也是人类历史上唯一一个二零二四年。</p>
+<p>今天不是新年前夕，但不妨把这当成一个彩排。</p>
+<p>二零二四，再见了。</p>
+<p>二零二五，你好。</p>
+<p>亲爱的朋友，或许你我素不相识，但新的一年，我仍祝你，也祝我自己：新年快乐，愿你仍能有勇气与梦想，你一定是被神明护佑着的孩子。</p>
+<img data-src="/illustrations/二零二五，愿你有勇气与梦想_01.jpg" style="zoom:50%;" />
+]]></content>
+      <categories>
+        <category>特殊的日子</category>
+      </categories>
+      <tags>
+        <tag>仪式感</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>来自半山水同学的投稿</title>
     <url>/2025/01/04/banshanshui-01/</url>
     <content><![CDATA[<p>这篇文章中刊载的是来自半山水同学的投稿，这是这个网站第一次发布其它同学的投稿，感谢同学对网站高产的助力！</p>
@@ -57,29 +80,6 @@
       </tags>
   </entry>
   <entry>
-    <title>二零二五，愿你有勇气与梦想</title>
-    <url>/2024/12/25/courage&amp;dreams2025/</url>
-    <content><![CDATA[<p>今天是圣诞节，圣诞节快乐！</p>
-<p>二零二四的进度条已经加载到98％了。</p>
-<span id="more"></span>
-
-<p>二零二四发生的事情很多，这一年，我度过了高三下半年，完成了高考，拿到了录取通知书，享受了近三个月的假期，来到了北京，庆祝了十八岁生日，又在忙碌中度过了大一上学期。</p>
-<p>“往事总是在回忆时被赋予意义”，我真心觉得，对于我来说，二零二四已经足够好了。</p>
-<p>人生需要很多仪式感，跨年也是，朋友，当你看到这篇文章时，不妨稍稍停下脚步，认真地同二零二四告个别，毕竟，这是你人生中唯一一个二零二四年，也是人类历史上唯一一个二零二四年。</p>
-<p>今天不是新年前夕，但不妨把这当成一个彩排。</p>
-<p>二零二四，再见了。</p>
-<p>二零二五，你好。</p>
-<p>亲爱的朋友，或许你我素不相识，但新的一年，我仍祝你，也祝我自己：新年快乐，愿你仍能有勇气与梦想，你一定是被神明护佑着的孩子。</p>
-<img data-src="/illustrations/二零二五，愿你有勇气与梦想_01.jpg" style="zoom:50%;" />
-]]></content>
-      <categories>
-        <category>特殊的日子</category>
-      </categories>
-      <tags>
-        <tag>仪式感</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>乙巳蛇年，新年快乐</title>
     <url>/2025/01/29/happy-year-of-the-snake-2025/</url>
     <content><![CDATA[<p>今天是乙巳蛇年正月初一，祝看到这篇文章的你乙巳蛇年新年快乐！</p>
@@ -92,6 +92,32 @@
       </categories>
       <tags>
         <tag>仪式感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2024/12/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -124,6 +150,28 @@
       </categories>
       <tags>
         <tag>仪式感</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试</title>
+    <url>/2024/12/22/test/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="06945ced1f8698fcefca443b17a8f38ae172b44a9d295ca39ae230140a562230">bd25ed9264b080267271e137e33d0ce13e7138a7af4beda1d0bc728121ff5e944e757db9bbb498a62d29102d4a3ff7948330d95086d697031d8bcaec50d6ae88b52fe02f1635eea54b5c0dda58f4350878122f6fb1551cfe7955a9e29985a3eb8ba6222f77d55107f797681eaed0e5043e7bcf651d1ec15702caa5ea0510d0377a7ea72894247917c25800246f10d825ddaae2e703d367fc657e56e417381dda441ade04f390784150fe30bc82d9b91ffcabb7abe3f59d1152841c39312e3fe5626d05a6d7a52ce810ce9580b46e346ce4b583ceb83cb18f4d407b728e2a48615165736eb94ee7fb3bf78000cb774bf5823b48b8a2977fddcf4b5754181d40dbfa21ad2444b1e0f6388b62373a1f17dccc8303a6092774561e228f24aa88b6ebb9210dbb97586cb1a7f354ab7ed28abdacf4fb85fd6bc5038911731cbc55aa776a66ad7b41793f995f5d95bb8eb2b7303445d91970a53e3f7b3afcf45d9db4d6d801b42afb51261836fdf618ba638d67bffb785117501d3db762452c3aebe32dac29716f9ce5c2b70191b922929cf99c4ded7587a73b2dd864526370258df0abc2398110ad5eff8ea86365dc802b12111770501e70d5a863106f9d3962808703673434f5ae7574cb7d6ef52fcf37a3c0548bfbd55d4be362c1caf6070dbd706c20110a42ae8c583232cf2c5905d911bbb88b021fc227d1b2f0c0cc491ff117decb9c90912fdc9322e2ed6eecf2ae1c66e4ba6d5f06d7259f4a5d3e357b8d26e2881ea1ed08a9ef6ac051f25ff2db0852412bb924c3f7a754d141cf46b7e8eb715eec8a21dca6d0858c0e15c03c953145ba00050fbb93aadcd9eeceae4a324e882d9c4355b2aa4ebd8ca032c4a2c750b80ce54b0fa81200128f5e83eb5799e1eeb10ef0865f5a11dfef9ecc54bea65f31f4ff438d3ba6d48cd01bb1710d8bc19db95dbf2d69ab8e7b0268ba9ce4c635eae49ec551a934be5acdad11e488ff133bbcb7752c9eceeffed6a8941ac9cf7d6f889c5c876ae82d3f3cb022839e77b58a1c90b8fa08af704d27ad5bbacc2175edd010b8d7082ef44a5eb10ae48a012ac67dd5bd1f1d230926ee31977738a4835f63075576e53d54ca5c655fb28c8f0e6d6d5ed435850be651464c9994395bdeb3bd907acdb8b6c7b414710a262ad14a6d9a2d04f15b77654f4efab0b17f56aaad</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -163,7 +211,7 @@
 <li><p>个人生产力系统的核心是思考，通过“思考”，把我们的大脑从琐碎事物中解放出来，从而保持我们自己的心智容量，让我们更加专注于自己当前做的事情之中。</p>
 </li>
 </ol>
-<p>以上是对最近一段时间在探索效率工具领域时的的发现与思考的总结，未来如果有什么新的想法和发现的话，我会对这篇文章进行更新。<br>当然，我也非常欢迎你跟我交流一些你的想法，我的邮箱是<a href="mailto:&#115;&#x6f;&#98;&#x65;&#114;&#x2e;&#116;&#104;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#109;">&#115;&#x6f;&#98;&#x65;&#114;&#x2e;&#116;&#104;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#109;</a>，期待你的邮件。</p>
+<p>以上是对最近一段时间在探索效率工具领域时的的发现与思考的总结，未来如果有什么新的想法和发现的话，我会对这篇文章进行更新。<br>当然，我也非常欢迎你跟我交流一些你的想法，我的邮箱是<a href="mailto:&#x73;&#x6f;&#x62;&#101;&#x72;&#46;&#116;&#104;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#109;">&#x73;&#x6f;&#x62;&#101;&#x72;&#46;&#116;&#104;&#64;&#113;&#x71;&#x2e;&#99;&#111;&#109;</a>，期待你的邮件。</p>
 <h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><ul>
 <li><p><a href="https://sspai.com/post/84938">简单且长期有效的生产力 - 少数派</a></p>
 </li>
@@ -178,54 +226,6 @@
         <tag>个人生产力系统</tag>
         <tag>效率工具</tag>
         <tag>持续更新</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/12/21/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>测试</title>
-    <url>/2024/12/22/test/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="06945ced1f8698fcefca443b17a8f38ae172b44a9d295ca39ae230140a562230">bd25ed9264b080267271e137e33d0ce13e7138a7af4beda1d0bc728121ff5e944e757db9bbb498a62d29102d4a3ff7948330d95086d697031d8bcaec50d6ae88b52fe02f1635eea54b5c0dda58f4350878122f6fb1551cfe7955a9e29985a3eb8ba6222f77d55107f797681eaed0e5043e7bcf651d1ec15702caa5ea0510d0377a7ea72894247917c25800246f10d825ddaae2e703d367fc657e56e417381dda441ade04f390784150fe30bc82d9b91ffcabb7abe3f59d1152841c39312e3fe5626d05a6d7a52ce810ce9580b46e346ce4b583ceb83cb18f4d407b728e2a48615165736eb94ee7fb3bf78000cb774bf5823b48b8a2977fddcf4b5754181d40dbfa21ad2444b1e0f6388b62373a1f17dccc8303a6092774561e228f24aa88b6ebb9210dbb97586cb1a7f354ab7ed28abdacf4fb85fd6bc5038911731cbc55aa776a66ad7b41793f995f5d95bb8eb2b7303445d91970a53e3f7b3afcf45d9db4d6d801b42afb51261836fdf618ba638d67bffb785117501d3db762452c3aebe32dac29716f9ce5c2b70191b922929cf99c4ded7587a73b2dd864526370258df0abc2398110ad5eff8ea86365dc802b12111770501e70d5a863106f9d3962808703673434f5ae7574cb7d6ef52fcf37a3c0548bfbd55d4be362c1caf6070dbd706c20110a42ae8c583232cf2c5905d911bbb88b021fc227d1b2f0c0cc491ff117decb9c90912fdc9322e2ed6eecf2ae1c66e4ba6d5f06d7259f4a5d3e357b8d26e2881ea1ed08a9ef6ac051f25ff2db0852412bb924c3f7a754d141cf46b7e8eb715eec8a21dca6d0858c0e15c03c953145ba00050fbb93aadcd9eeceae4a324e882d9c4355b2aa4ebd8ca032c4a2c750b80ce54b0fa81200128f5e83eb5799e1eeb10ef0865f5a11dfef9ecc54bea65f31f4ff438d3ba6d48cd01bb1710d8bc19db95dbf2d69ab8e7b0268ba9ce4c635eae49ec551a934be5acdad11e488ff133bbcb7752c9eceeffed6a8941ac9cf7d6f889c5c876ae82d3f3cb022839e77b58a1c90b8fa08af704d27ad5bbacc2175edd010b8d7082ef44a5eb10ae48a012ac67dd5bd1f1d230926ee31977738a4835f63075576e53d54ca5c655fb28c8f0e6d6d5ed435850be651464c9994395bdeb3bd907acdb8b6c7b414710a262ad14a6d9a2d04f15b77654f4efab0b17f56aaad</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>Hexo</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
