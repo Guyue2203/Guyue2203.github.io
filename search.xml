@@ -70,7 +70,7 @@
 <p><code> ECP:Empathy, Clarity, Purity</code></p>
 ]]></content>
       <categories>
-        <category>ECP</category>
+        <category>思考</category>
       </categories>
       <tags>
         <tag>ECP</tag>
@@ -129,7 +129,7 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>探索</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -182,7 +182,7 @@
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-        <category>Hexo</category>
+        <category>探索</category>
       </categories>
       <tags>
         <tag>Hexo</tag>
@@ -296,7 +296,7 @@
 </ol>
 ]]></content>
       <categories>
-        <category>启发性观点</category>
+        <category>思考</category>
       </categories>
       <tags>
         <tag>思考</tag>
@@ -404,12 +404,40 @@
 <p>你是认可你的啊，对的，这就够了，这，就是你所渴求的。</p>
 ]]></content>
       <categories>
-        <category>写给我自己</category>
+        <category>自言语</category>
       </categories>
       <tags>
         <tag>渴求</tag>
         <tag>正确性</tag>
         <tag>直觉</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>汇总一些大佬的网站</title>
+    <url>/2025/03/11/tablog/</url>
+    <content><![CDATA[<p>在搭建个人网站的时候，我在网上看到了一些其他人搭建的博客网站，那些网站在很大程度上激励并启发了我，现在把其中的一部分附在下面：</p>
+<span id="more"></span>
+<ul>
+<li><a href="https://blog.skk.moe/">Sukka’s Blog</a></li>
+<li><a href="https://blog.rxliuli.com/">rxliuli blog</a></li>
+<li><a href="https://chen-huaneng.github.io/">AbelのBlog</a></li>
+<li><a href="https://www.guhub.cn/">Eltrac / 帆迹</a></li>
+<li><a href="https://diligencyj.github.io/">前程万里</a></li>
+<li><a href="https://okita1027.github.io/">沖田さん の ブログ</a></li>
+<li><a href="https://lutaonan.com/">Randy’s Blog</a></li>
+<li><a href="https://www.voidking.com/">好好学习的郝</a></li>
+<li><a href="https://ijiaober.github.io/">{ GoonX }</a></li>
+<li><a href="https://gav1n-cheung.github.io/">Cheung’Blog</a></li>
+<li><a href="https://www.yrzhe.love/">愚人哲</a></li>
+<li><a href="https://lisijian.cn/">思建的NLP之旅</a></li>
+<li><a href="https://promethuesyuan.github.io/">Yuan’s Blog</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>探索</category>
+      </categories>
+      <tags>
+        <tag>大佬的网站</tag>
       </tags>
   </entry>
 </search>
