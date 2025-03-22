@@ -457,7 +457,7 @@
     <url>/2025/03/11/webs/</url>
     <content><![CDATA[<p>为了便于查找，我在下面汇总了一些我认为的有用或有趣的网站。</p>
 <span id="more"></span>
-<p>###一，一些大佬的网站</p>
+<h3 id="一，一些大佬的网站">一，一些大佬的网站</h3>
 <p>在搭建个人网站的时候，我在网上看到了一些其他人搭建的博客网站，那些网站在很大程度上激励并启发了我，现在把其中的一部分附在下面：</p>
 <ul>
 <li><a href="https://blog.skk.moe/">Sukka’s Blog</a></li>
@@ -474,7 +474,7 @@
 <li><a href="https://lisijian.cn/">思建的NLP之旅</a></li>
 <li><a href="https://promethuesyuan.github.io/">Yuan’s Blog</a></li>
 </ul>
-<p>二，一些与AI有关的工具</p>
+<h3 id="二，一些与AI有关的工具">二，一些与AI有关的工具</h3>
 ]]></content>
       <categories>
         <category>探索</category>
