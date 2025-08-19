@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="baidu-site-verification" content="codeva-hBW11wpvSd" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="https://s.guyue.me/img/icon.png">
+  <title>ABOUT</title>
+
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="9de67bba-60eb-4136-935a-82f2e25d1f36"></script>
+
+  <style>
+    :root {
+  --text: #f9fafb;
+  --hover-bg: rgba(255, 255, 255, 0.2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    body {
+        font-family: 'SimSun', serif;
+        background: url('https://s.guyue.me/img/bg.jpg') no-repeat center center fixed;
+        background-size: cover;
+        color: var(--text);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        gap: 1rem;
+        overflow: hidden;
+    }
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.container {
+  max-width: 600px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--text);
+  animation: slideUp 0.8s ease-out forwards;
+}
+.container:nth-child(2) {
+  animation: none;
+}
+h1 {
+  font-family: 'SimSun', serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+a:hover {
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.link-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: none;
+  border: 1px solid #ffffff;
+  color: var(--text);
+  font-weight: 600;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+.link-button:hover {
+  background: var(--hover-bg);
+  color: #ffffff;
+}
+.footer {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom */
+}
+@media (min-width: 640px) {
+  .links {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.corner-image {
+  position: fixed;
+  bottom: 1%;
+  right: 2%;
+  width: 131px;
+  height: 42px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.corner-image:hover {
+  transform: scale(1.1);
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://s.guyue.me/img/guyue.jpg" alt="头像" style="width: 120px; height: 120px; border-radius: 50%; margin: 0 auto 1rem; display: block;">
+    <br/><br/>
+
+    <h2>HELLO!</h2>
+    <br/>
+    <p>我是沽月，一名学生，目前大二在读，“沽月”是我在数字世界里的名字，也是我的笔名。</p>
+
+    <h2>ABOUT ME</h2>
+    <br/>
+    <p>MBTI：INTJ</p>
+    <p>年龄：06年｜处女座</p>
+    <p>学校：<a target="_blank" rel="noopener" href="https://www.ruc.edu.cn">中国人民大学 </a></p>
+    <p>院系：<a target="_blank" rel="noopener" href="https://clr.ruc.edu.cn">化学与生命资源学院</a></p>
+    <div class="space-y-4">
+    <p>联系我：
+  <a href="mailto:hi@guyue.me" class="flex items-center text-gray-700 hover:text-blue-600">
+    <i class="fas fa-envelope fa-lg w-8"></i>
+  </a>&thinsp;
+  <a href="https://twitter.com/Guyue2203" target="_blank" class="flex items-center text-gray-700 hover:text-blue-400">
+    <i class="fab fa-twitter fa-lg w-8"></i>
+  </a>&thinsp;
+  <a href="https://github.com/Guyue2203" target="_blank" class="flex items-center text-gray-700 hover:text-gray-900">
+    <i class="fab fa-github fa-lg w-8"></i>
+  </a>&thinsp;
+  <a href="https://t.me/guyue2203" target="_blank" class="flex items-center text-gray-700 hover:text-blue-500">
+    <i class="fab fa-telegram fa-lg w-8"></i>
+  </a>
+    </p>
+    </div>
+
+    <h2>OTHER</h2>
+    <br/>
+    <p><a href="/about/background/">关于此背景图片 ></a></p>
+    <p><a href="https://whyme.uno" target="_blank">关于微米（WhyMe） ></a></p>
+
+
+    <div class="fixed bottom-4 right-4 text-[0.7rem] hover:text-blue-400 transition-colors">
+      <br/><br/>
+      <a href="/">< 返回首页</a>
+    </div>
+  </div>
+
+</body>
+</html>

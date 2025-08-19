@@ -4,118 +4,262 @@
   <meta charset="UTF-8" />
   <meta name="baidu-site-verification" content="codeva-hBW11wpvSd" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="https://blog.guyue.me/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="https://blog.guyue.me/images/favicon-16x16-next.png">
-  <title>Guyue</title>
+  <link rel="icon" href="https://s.guyue.me/img/icon.png">
+  <title>@GUYUE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="9de67bba-60eb-4136-935a-82f2e25d1f36"></script> <!-- guyue.me -->
 
 
   <style>
     :root {
-      --bg: #f9fafb;
-      --text: #1f2937;
-      --accent: #6366f1;
-      --hover: #4f46e5;
-    }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  --text: #f9fafb;
+  --hover-bg: rgba(255, 255, 255, 0.2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
     body {
-      font-family: 'SimSun', serif;
-      /* background-color: var(--bg); */
-      background: url('https://s.guyue.me/img/bg_1.webp') no-repeat center center fixed;
+        font-family: 'Noto Serif SC', serif;
+        background: url('https://s.guyue.me/img/bg.jpg') no-repeat center center fixed;
         background-size: cover;
-      color: var(--text);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
-    .container {
-      max-width: 800px;
-      text-align: center;
-      padding: 40px;
-      border-radius: 16px;
-      background: white;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-      opacity: 0.88;
-    }
-    h1 {
-      font-family: 'Zhi Mang Xing', cursive;
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-      color: var(--accent);
-    }
-    p {
-      font-size: 1.1rem;
-      margin-bottom: 2rem;
-    }
-    a {
-      text-decoration: none;
-    }
-    a:hover {;
-      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    }
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      margin-bottom: 2rem;
-    }
-    .link-button {
-      display: inline-block;
-      padding: 12px 24px;
-      border-radius: 8px;
-      background: var(--accent);
-      color: white;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background 0.3s ease;
-    }
-    .link-button:hover {
-      background: var(--hover);
-    }
-    .footer {
-      font-size: 0.9rem;
-      color: #6b7280;
-    }
-    @media (min-width: 640px) {
-      .links {
-        flex-direction: row;
+        color: var(--text);
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-      }
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        gap: 2rem;
+        overflow: hidden; /* 新增：隐藏滚动条 */
     }
+/* 新增：定义从下方滑出的关键帧动画 */
+@keyframes slideUp {
+  from {
+    transform: translateY(100%); /* 初始位置：向下偏移100% */
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0); /* 结束位置：回到原位置 */
+    opacity: 1;
+  }
+}
+.container {
+  max-width: 800px;
+  text-align: center;
+  padding: 40px;
+  border-radius: 16px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--text);
+  animation: slideUp 0.8s ease-out forwards;
+}
+/* 取消第二个container的动画 */
+.container:nth-child(2) {
+  animation: none; /* 覆盖原有动画，取消效果 */
+}
+h1 {
+  font-family: 'Zhi Mang Xing', cursive;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+a {
+  text-decoration: none;
+  color: var(--text);
+}
+a:hover {
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+/* 动画按钮样式 */
+.btn-53,
+.btn-53 *,
+.btn-53 :after,
+.btn-53 :before,
+.btn-53:after,
+.btn-53:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
 
-    .corner-image {
-      position: fixed;
-      bottom: 25px;
-      right: 40px;
-      width: 131px;
-      height: 42px;
-      cursor: pointer;
-      transition: transform 0.3s ease;
-    }
+.btn-53 {
+  -webkit-tap-highlight-color: transparent;
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Noto Serif SC', serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  mask-image: radial-gradient(#000, #fff);
+  -webkit-mask-image: radial-gradient(#000, #fff);
+  padding: 0;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 900;
+  overflow: hidden;
+  padding: 0.6rem 1.5rem;
+  position: relative;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
 
-    .corner-image:hover {
-      transform: scale(1.1);
-    }
+.btn-53:disabled {
+  cursor: default;
+}
+
+.btn-53:-moz-focusring {
+  outline: auto;
+}
+
+.btn-53 svg {
+  display: block;
+}
+
+.btn-53 [hidden] {
+  display: none;
+}
+
+.btn-53 .original {
+  background: #fff;
+  color: #000;
+  display: grid;
+  inset: 0;
+  place-content: center;
+  position: absolute;
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+.btn-53:hover .original {
+  transform: translateY(100%);
+}
+
+.btn-53 .letters {
+  display: inline-flex;
+}
+
+.btn-53 span {
+  opacity: 0;
+  transform: translateY(-15px);
+  transition: transform 0.2s cubic-bezier(0.87, 0, 0.13, 1), opacity 0.2s;
+}
+
+.btn-53 span:nth-child(2n) {
+  transform: translateY(15px);
+}
+
+.btn-53:hover span {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.btn-53:hover span:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.btn-53:hover span:nth-child(3) {
+  transition-delay: 0.2s;
+}
+
+.btn-53:hover span:nth-child(4) {
+  transition-delay: 0.3s;
+}
+
+.btn-53:hover span:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
+.btn-53:hover span:nth-child(6) {
+  transition-delay: 0.5s;
+}
+.footer {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+@media (min-width: 640px) {
+  .links {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.corner-image {
+  position: fixed;
+  bottom: 1%;
+  right: 2%;
+  width: 131px;
+  height: 42px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.corner-image:hover {
+  transform: scale(1.1);
+}
+
   </style>
 </head>
 <body>
   <div class="container">
     <img src="https://s.guyue.me/img/guyue.jpg" alt="头像" style="width: 120px; height: 120px; border-radius: 50%; margin-bottom: 1rem;">
-  <p>你好，我是沽月，欢迎来到我的个人主页。</p>
+    <br/><br/>
+    <p><i>变革才刚开始，没有人敢睡觉。</i></p>
+  <p>你好啊，我是沽月，是你们的路人 A 。</p>
 
     <div class="links">
-      <a class="link-button" href="https://blog.guyue.me" target="_blank">博客 · Blog</a>
-      <a class="link-button" href="https://lab.guyue.me/home/" target="_blank">实验室 · Lab</a>
+      <button class="btn-53" onclick="window.open('https://blog.guyue.me', '_blank')">
+        <div class="original">Blog</div>
+        <div class="letters">
+          <span>B</span>
+          <span>L</span>
+          <span>O</span>
+          <span>G</span>
+        </div>
+      </button>
+      <button class="btn-53" onclick="window.open('https://lab.guyue.me', '_blank')">
+        <div class="original">Lab</div>
+        <div class="letters">
+          <span>L</span>
+          <span>A</span>
+          <span>B</span>
+        </div>
+      </button>
+      <button class="btn-53" onclick="window.location.href='/about/'">
+        <div class="original">About</div>
+        <div class="letters">
+          <span>A</span>
+          <span>B</span>
+          <span>O</span>
+          <span>U</span>
+          <span>T</span>
+        </div>
+      </button>
     </div>
 
+    
+  </div>
+
+  <div class="container" style="position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); max-width: 95%; padding: 0 1px; box-sizing: border-box;">
     <div class="footer">
-      邮箱：<a href="mailto:sober.th@qq.com">sober.th@qq.com</a><br/>
-      Copyright &copy; 2024-2025 <a href="/">沽月</a>
+      <img src="https://s.guyue.me/img/beian_logo.png" alt="备案图标" style="width: 15px; height: 16px; vertical-align: middle;">
+      <a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010802045791" rel="noreferrer" target="_blank">京公网安备11010802045791号</a>&emsp;
+      <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2025124766号-1</a>
     </div>
   </div>
 
