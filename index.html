@@ -8,7 +8,7 @@
   <title>@GUYUE</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&amp;display=swap" rel="stylesheet">
 
   <script defer src="https://cloud.umami.is/script.js" data-website-id="9de67bba-60eb-4136-935a-82f2e25d1f36"></script> <!-- guyue.me -->
 
@@ -194,6 +194,20 @@ a:hover {
   font-size: 0.9rem;
   color: #9ca3af;
 }
+.footer-container {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 95%;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.footer img {
+  width: 15px;
+  height: 16px;
+  vertical-align: middle;
+}
 @media (min-width: 640px) {
   .links {
     flex-direction: row;
@@ -212,6 +226,26 @@ a:hover {
 .corner-image:hover {
   transform: scale(1.1);
 }
+.avatar-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.beian-logo {
+  width: 15px;
+  height: 16px;
+  vertical-align: middle;
+}
+.footer-container {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 95%;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
 
   </style>
 </head>
@@ -225,31 +259,31 @@ a:hover {
 
     <div class="links">
       <button class="btn-53" onclick="window.open('https://blog.guyue.me', '_blank')">
-        <div class="original">Blog</div>
-        <div class="letters">
+        <span class="original">Blog</span>
+        <span class="letters">
           <span>B</span>
           <span>L</span>
           <span>O</span>
           <span>G</span>
-        </div>
+        </span>
       </button>
       <button class="btn-53" onclick="window.open('https://lab.guyue.me', '_blank')">
-        <div class="original">Lab</div>
-        <div class="letters">
+        <span class="original">Lab</span>
+        <span class="letters">
           <span>L</span>
           <span>A</span>
           <span>B</span>
-        </div>
+        </span>
       </button>
       <button class="btn-53" onclick="window.guyueNavigate ? window.guyueNavigate('/about/') : window.location.href='/about/'">
-        <div class="original">About</div>
-        <div class="letters">
+        <span class="original">About</span>
+        <span class="letters">
           <span>A</span>
           <span>B</span>
           <span>O</span>
           <span>U</span>
           <span>T</span>
-        </div>
+        </span>
       </button>
     </div>
 
@@ -264,7 +298,7 @@ a:hover {
     </div>
   </div>
 
-<a href="https://notbyai.fyi/" target="_blank">
+<a href="https://notbyai.fyi/" target="_blank" rel="noopener">
   <img src="https://s.guyue.me/img/Produced-By-a-Human-Not-By-AI-Badge-white.svg" alt="Not by AI" class="corner-image">
 </a>
 </main>

@@ -10,7 +10,7 @@
   <link data-guyue-page-asset href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.1.2/css/all.min.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&amp;display=swap" rel="stylesheet">
   <script defer src="https://cloud.umami.is/script.js" data-website-id="9de67bba-60eb-4136-935a-82f2e25d1f36"></script>
 
   <style data-guyue-page-style>
@@ -33,7 +33,7 @@
         justify-content: center;
         align-items: center;
         min-height: 100vh;
-        padding: 20px;
+        padding: 20x;
         gap: 1rem;
         overflow: hidden;
     }
@@ -48,9 +48,9 @@
   }
 }
 .container {
-  max-width: 600px;
+  max-width: 640px;
   text-align: left;
-  padding: 20px;
+  padding: 45px;
   border-radius: 16px;
   background: transparent;
   box-shadow: none;
@@ -66,9 +66,46 @@ h1 {
   margin-bottom: 1rem;
   color: var(--text);
 }
+h2 {
+  margin-bottom: 0.8rem;
+}
 p {
   font-size: 1.1rem;
   margin-bottom: 1rem;
+}
+.profile-item {
+  margin-bottom: 1rem;
+}
+.timeline {
+  display: grid;
+  gap: 0.9rem;
+  margin: 0.2rem 0 1.4rem;
+}
+.timeline-item {
+  display: block;
+}
+.timeline-content {
+  display: inline-block;
+  max-width: 100%;
+}
+.timeline-time {
+  display: flex;
+  gap: 1em;
+  white-space: nowrap;
+}
+.timeline-title {
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+.timeline-title a {
+  display: inline;
+}
+.timeline-time {
+  color: rgba(249, 250, 251, 0.7);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 0.2rem;
 }
 a {
   text-decoration: none;
@@ -76,6 +113,32 @@ a {
 }
 a:hover {
   text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.1rem;
+  margin-bottom: 1rem;
+}
+.contact-links a {
+  display: inline-flex;
+  align-items: center;
+  color: rgba(249, 250, 251, 0.68);
+  font-size: 0.95rem;
+}
+.contact-links a::after {
+  content: "";
+  display: inline-block;
+  width: 0.82em;
+  height: 0.82em;
+  margin-left: 0.12rem;
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 12L12 4M4.8 4H12V11.2' fill='none' stroke='black' stroke-width='2' stroke-linecap='square' stroke-linejoin='miter'/%3E%3C/svg%3E") center / contain no-repeat;
+  mask: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 12L12 4M4.8 4H12V11.2' fill='none' stroke='black' stroke-width='2' stroke-linecap='square' stroke-linejoin='miter'/%3E%3C/svg%3E") center / contain no-repeat;
+  transform: translateY(-0.04em);
+}
+.contact-links a:hover {
+  color: var(--text);
 }
 .links {
   display: flex;
@@ -109,6 +172,11 @@ a:hover {
     justify-content: center;
   }
 }
+@media (max-width: 639px) {
+  .timeline-time {
+    white-space: normal;
+  }
+}
 .corner-image {
   position: fixed;
   bottom: 1%;
@@ -128,32 +196,54 @@ a:hover {
   <main id="app">
   <div class="container">
 
-    <h2>HELLO!</h2>
-    <br/>
+    <h2>HELLO !</h2>
     <p>我是沽月，一名学生，目前大二在读，“沽月”是我在数字世界里的名字，也是我的笔名。</p>
 
     <h2>ABOUT ME</h2>
-    <br/>
-    <p>MBTI：<a href="https://www.16personalities.com/ch/档案/250a7c18dcc9c" target="_blank">INTJ-A</a></p>
-    <p>年龄：06年｜处女座</p>
-    <p>学校：<a target="_blank" rel="noopener" href="https://www.ruc.edu.cn">中国人民大学 </a></p>
-    <p>院系：<a target="_blank" rel="noopener" href="https://clr.ruc.edu.cn">化学与生命资源学院</a></p>
-    <div class="space-y-4">
-    <p>联系我：
-        <a href="mailto:hi@guyue.me" class="flex items-center text-gray-700 hover:text-blue-600"><i class="fas fa-envelope fa-lg w-8"></i></a>&thinsp;
-        <a href="https://x.com/Guyue2203" target="_blank" class="flex items-center text-gray-700 hover:text-blue-400"><i class="fab fa-twitter fa-lg w-8"></i></a>&thinsp;
-        <a href="https://github.com/Guyue2203" target="_blank" class="flex items-center text-gray-700 hover:text-gray-900"><i class="fab fa-github fa-lg w-8"></i></a>&thinsp;
-        <a href="https://t.me/guyue2203" target="_blank" class="flex items-center text-gray-700 hover:text-blue-500"><i class="fab fa-telegram fa-lg w-8"></i></a>
-    </p>
-    </div>
 
+    <div class="timeline" aria-label="教育经历">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-time">
+            <span>2024 - 至今</span>
+            <span>北京</span>
+          </div>
+          <div class="timeline-title">
+            <a target="_blank" rel="noopener" href="https://www.ruc.edu.cn">中国人民大学</a> · <a target="_blank" rel="noopener" href="https://clr.ruc.edu.cn">化学与生命资源学院</a>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-time">
+            <span>2021 - 2024</span>
+            <span>郸城</span>
+          </div>
+          <div class="timeline-title"><a target="_blank" rel="noopener" href="http://hndcyg.com/">郸城县第一高级中学</a></div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <div class="timeline-time">
+            <span>2018 - 2021</span>
+            <span>郸城</span>
+          </div>
+          <div class="timeline-title"><a target="_blank" rel="noopener" href="http://www.dcgmxx.com/">郸城县光明学校</a></div>
+        </div>
+      </div>
+    </div>
     <h2>OTHER</h2>
-    <br/>
       <p><a href="https://ask.guyue.me" target="_blank">匿问我答 ></a></p>
       <p><a href="https://bonjour.bio/guyue" target="_blank">我的 Bonjour! 主页 ></a> </p>
       <p><a href="https://second.me/guyue" target="_blank">我的 Second Me 主页 ></a></p>
       <p><a href="https://whyme.uno" target="_blank">关于微米工作室 (WhyMe Studio) ></a></p>
       <p><a href="/about/background/">关于此背景图片 ></a></p>
+      <div class="contact-links" aria-label="联系我">
+        <a href="mailto:hi@guyue.me">Email</a>
+        <a href="https://github.com/Guyue2203" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://x.com/Guyue2203" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://t.me/guyue2203" target="_blank" rel="noopener">Telegram</a>
+      </div>
 
 
     <div class="fixed bottom-4 right-4 text-[0.7rem] hover:text-blue-400 transition-colors">
