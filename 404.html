@@ -70,7 +70,11 @@
   <a href="/" class="button">🏠 回到首页</a>
 
   <footer>
-    <p>Copyright &copy; 2024-2025 沽月</a></p>
+    <p>Copyright &copy; 2024-<span id="year"></span> 沽月</p>
   </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>

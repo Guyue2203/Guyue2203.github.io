@@ -8,12 +8,12 @@
   <title>@GUYUE</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
 
   <script defer src="https://cloud.umami.is/script.js" data-website-id="9de67bba-60eb-4136-935a-82f2e25d1f36"></script> <!-- guyue.me -->
 
 
-  <style>
+  <style data-guyue-page-style>
     :root {
   --text: #f9fafb;
   --hover-bg: rgba(255, 255, 255, 0.2);
@@ -216,6 +216,7 @@ a:hover {
   </style>
 </head>
 <body>
+  <main id="app">
   <div class="container">
     <img src="https://s.guyue.me/img/guyue.jpg" alt="头像" style="width: 120px; height: 120px; border-radius: 50%; margin-bottom: 1rem;">
     <br/><br/>
@@ -240,7 +241,7 @@ a:hover {
           <span>B</span>
         </div>
       </button>
-      <button class="btn-53" onclick="window.location.href='/about/'">
+      <button class="btn-53" onclick="window.guyueNavigate ? window.guyueNavigate('/about/') : window.location.href='/about/'">
         <div class="original">About</div>
         <div class="letters">
           <span>A</span>
@@ -266,6 +267,13 @@ a:hover {
 <a href="https://notbyai.fyi/" target="_blank">
   <img src="https://s.guyue.me/img/Produced-By-a-Human-Not-By-AI-Badge-white.svg" alt="Not by AI" class="corner-image">
 </a>
+</main>
+
+<!-- <script src="https://s.guyue.me/cdn/fireworks.js"></script>
+<script>createFireworks();</script> -->
+
+<script src="https://s.guyue.me/cdn/music.js/bgm_guyue.js"></script>
+<script src="https://s.guyue.me/cdn/pjax_guyue.js"></script>
 
 </body>
 </html>
