@@ -6,6 +6,7 @@
   --canvas: #e9ebe7;
   --paper: #fff;
   --link-hover: #526650;
+  --link-underline: #969c95;
   --outline-line: #cbd0c8;
   --outline-number: #9a9e97;
   --page-shadow: 0 12px 42px rgb(33 40 32 / 11%);
@@ -20,6 +21,7 @@
     --canvas: #171b17;
     --paper: #252a25;
     --link-hover: #fff;
+    --link-underline: #767e75;
     --outline-line: #566055;
     --outline-number: #929b90;
     --page-shadow: 0 12px 42px rgb(0 0 0 / 30%);
@@ -34,6 +36,7 @@
   --canvas: #171b17;
   --paper: #252a25;
   --link-hover: #fff;
+  --link-underline: #767e75;
   --outline-line: #566055;
   --outline-number: #929b90;
   --page-shadow: 0 12px 42px rgb(0 0 0 / 30%);
@@ -57,7 +60,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-a { color: inherit; text-underline-offset: 0.2em; }
+a { color: inherit; text-decoration-color: var(--link-underline); text-underline-offset: 0.3em; text-decoration-skip-ink: none; }
 a:hover { color: var(--link-hover); }
 a:focus-visible { outline: 2px solid var(--link-hover); outline-offset: 3px; }
 
@@ -194,7 +197,7 @@ html[lang="en"] .education .entry-head .entry-meta { order: 3; flex: 0 0 100%; }
 @page { size: A4; margin: 18mm; }
 
 @media print {
-  :root, :root:not([data-theme="light"]), :root[data-theme="dark"] { color-scheme: light; --ink: #000; --muted: #555; --line: #ccc; --canvas: #fff; --paper: #fff; --link-hover: #000; }
+  :root, :root:not([data-theme="light"]), :root[data-theme="dark"] { color-scheme: light; --ink: #000; --muted: #555; --line: #ccc; --canvas: #fff; --paper: #fff; --link-hover: #000; --link-underline: #777; }
   body { padding: 0; background: #fff; color: #000; font-size: 10pt; }
   .page { width: auto; min-height: 0; padding: 0; box-shadow: none; }
   .page-tools { display: none; }
